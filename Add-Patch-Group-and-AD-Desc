@@ -1,8 +1,8 @@
 ## Defining parameters
 
 param (
-    [Parameter(Mandatory = $true)][string]$serverNames,
-    [Parameter(Mandatory = $true)][string]$adDescription
+    [Parameter(Mandatory)][string]$serverNames,
+    [Parameter(Mandatory)][string]$adDescription
 )
 
 ## Parsing array syntax
